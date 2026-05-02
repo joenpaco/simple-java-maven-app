@@ -22,4 +22,9 @@ public class AppTest
         App app = new App();
         assertEquals("Hello World from Git and Jenkins!", app.getMessage());
     }
+
+    @Test
+    void testSimple() {
+        assertEquals(1, 1);
+    }
 }
